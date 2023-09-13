@@ -1,0 +1,23 @@
+{
+  "name": "projet_portfolio",
+  "version": "1.0.0",
+  "description": "Lien vers le [Portfolio](à insérer lien) <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djony-Herbaut/Portfolio_2024.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Djony-Herbaut/Portfolio_2024/issues"
+  },
+  "homepage": "https://github.com/Djony-Herbaut/Portfolio_2024#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
