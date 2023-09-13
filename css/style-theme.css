@@ -43,11 +43,47 @@ main{
     max-width: 120rem;
     margin: auto;
 }
+header h1{
+
+    text-align: center;
+    line-height: 7rem;
+    font-size: 8rem;
+    padding: 2rem 0;
+    /* exemple habillage de texte*/
+    filter: drop-shadow(0 0 0.60rem rgb(224, 231, 123));
+    text-shadow:#e7f6ff 0 -1px 0,
+    #00abf0 1px 1px 0,
+    #0096e4 2px 2px 0,
+    #00ceff 3px 3px 0,
+    #006392 4px 4px 0,
+    #00485b 5px 5px 0,
+    #333 5px 5px 10px;color:#44e9ff;
+    /* background-color:#2E8ECE; */
+}
 
 /* gallery */
+section ul.gallery-primary-logo img{
+    width: 100% ;
+    padding: 1rem ;
+}
+
 section ul.gallery-primary-logo{
     padding: 1rem 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
+}
+
+section ul.gallery-primary-logo li {
+    clip-path: circle(40%) /* masque */ ;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.60rem rgb(224, 231, 123));
+}
+section ul.gallery-primary-logo li:hover {
+    clip-path: circle(60%);
+}
+
+footer p{
+    text-align: center;
 }
