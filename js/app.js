@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", e => {
         document.body.classList.toggle('dark-mode');
 
         // Basculez la classe d'icône pour le mode sombre
-        const iconMoon = toggleDarkModeButton.querySelector('.material-symbols-outlined');
-        iconMoon.classList.toggle('material-symbols-outlined');
+        //const iconMoon = toggleDarkModeButton.querySelector('.material-symbols-outlined');
+        //iconMoon.classList.toggle('material-symbols-outlined');
     });
 });
