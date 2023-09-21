@@ -12,5 +12,5 @@ Vous vous trouvez sur mon portfolio, il sera régulièrement mis à jour.
 
 # Charte graphique/typographique
 
-![PALETTECOLOORS.png](palette à insérer )
+![PALETTECOLOORS.png](./asset/Palette_colors.png)
 - font-family: 'Kanit', sans-serif
