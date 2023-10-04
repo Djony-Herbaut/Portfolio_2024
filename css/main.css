@@ -1,43 +1,211 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto:wght@100;300;400&display=swap');
-
-/* Reset */ 
-html{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+/* Reset */
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     font: 1.6rem 'Roboto', sans-serif;
     margin: 0;
     line-height: 1.6;
     letter-spacing: .1rem;
-    background: var(--bgcolor-theme);
+    background-color: var(--bgcolor-theme);
     color: var(--text-color);
-
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    transition: all .6s ease-in-out;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-h1,h2,h3,p,ul,ol{
+
+h1, h2, h3, p, ul, ol {
     padding: 0;
     margin: 0;
     list-style-type: none;
     font-weight: normal;
 }
 
-/* ajouter les images */
-
-a{
+/* Ajouter les images */
+a {
     text-decoration: none;
-    color: #222;
+    color: #000000;
 }
-button,input{
+
+button, input {
     padding: 0;
-    background-color: none;
+    background: none;
     border: 0;
 }
-:root{
-    --bgcolor-theme: #222;
-    --text-color: #ffffff;
-    
+/* End Reset */
+
+:root {
+    color-scheme: light dark; 
+    --bgcolor-theme: #ffffff;
+    --text-color: #000000;
 }
-    
-    
+
+header h1 {
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 2rem;
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Applique une forme de cercle à l'image */
+header img {
+    width: 5rem; /* Ajustez la taille de l'image selon vos préférences */
+    height: 5rem; /* Ajustez la taille de l'image selon vos préférences */
+    border-radius: 70%; /* Transforme l'image en cercle */
+    margin-right: 3rem; /* Espacement entre l'image et le texte */
+}
+
+/* Pour centrer le texte verticalement par rapport à l'image */
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajoutez cette règle CSS pour déplacer la navbar en haut de l'écran */
+.navbar {
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    position: fixed;
+    top: 0;
+    background-color: var(--bgcolor-theme);
+    z-index: 1; /* Pour assurer que la navbar est au-dessus du contenu */
+}
+
+/* Ajoutez cette règle CSS pour aligner le texte et l'icône à gauche */
+.icon {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family: Arial;
+    padding-left: 1rem;
+}
+
+/* Ajoutez cette règle CSS pour aligner la liste de la navbar et la zone de recherche à droite */
+.menu {
+    display: flex;
+    margin: 0;
+}
+
+.menu ul {
+    display: flex;
+    margin-left: 75rem;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #1e0acf;
+}
+
+/* Ajoutez cette règle CSS pour déplacer la zone de recherche à droite */
+.search {
+    margin-left: auto;
+}
+
+.srch {
+    font-family: 'Roboto';
+    width: 20rem;
+    height: 4rem;
+    background: transparent;
+    border: .1rem solid #0d0b53;
+    margin-top: 0;
+    color: #fff;
+    border-right: none;
+    padding: 1rem;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.btn {
+    width: 10rem;
+    height: 4rem;
+    background: #ffffff;
+    border: .2rem solid #0a085c;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    border-bottom-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #000;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+main {
+    max-width: 120rem;
+    margin: auto;
+}
+
+/* gallery */
+section ul.gallery-primary-logo img {
+    width: 100%;
+    padding: 1rem;
+}
+
+section ul.gallery-primary-logo {
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+section ul.gallery-primary-logo li {
+    clip-path: circle(40%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.60rem rgb(11, 0, 71));
+}
+
+section ul.gallery-primary-logo li:hover {
+    clip-path: circle(60%);
+}
+
+footer p {
+    text-align: center;
+    max-width: 120rem;
+    margin: auto;
+}
+
+
+
+
