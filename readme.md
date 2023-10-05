@@ -9,9 +9,13 @@ en alternance à Thalès DIS France.
 # Réalisation 
 Pour réaliser la page d'accueil, je me suis d'abord concentré sur la réalisation de ma maquette que vous pouvez trouvez ci-dessous:
 
-![Maquette_portfolio.pdf](./asset/Maquette_portfolio.pdf)
+![Maquette_portfolio.pdf](./asset/Maquette_portfolio.png)
 
 # Charte graphique/typographique
+
+En ce qui concerne la charte typographique j'ai choisi une font-family: 'Roboto', sans-serif. 
+Et j'ai appliqué la charte graphique ci dessous :
+
 ![PALETTECOLOORS.png](./asset/Palette_colors.png)
-- font-family: 'Roboto', sans-serif
+
 
