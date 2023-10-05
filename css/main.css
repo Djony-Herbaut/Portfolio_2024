@@ -172,7 +172,7 @@ header h1 {
 }
 
 main {
-    max-width: 120rem;
+    max-width: 75%;
     margin: auto;
 }
 
@@ -257,6 +257,54 @@ section ul.gallery-primary-logo li:hover {
 }
 
 /* Fin de section projet */
+
+/* Section Mission */
+
+.mission-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.mission-section h2{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.image-container:hover img {
+    transform: scale(1.3); /* Léger zoom au survol de l'image */
+}
+
+.text-mission {
+    flex: 1;
+    margin-left: 60rem; /* Espacement entre l'image et le texte */
+}
+
+.mission-button {
+    padding: 2.5rem 8rem;
+    background-color: #1b1172;
+    color: var(--bgcolor-theme);
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Effet de survol sur le bouton */
+}
+
+.mission-button:hover {
+    background-color: #221694; /* Changement de couleur au survol */
+}
+
+
+
+/* Fin Section Mission */
 
 footer p {
     text-align: center;
