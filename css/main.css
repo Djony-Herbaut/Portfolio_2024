@@ -47,7 +47,24 @@ button, input {
     --text-color: #000000;
 }
 
-header h1 {
+/* Section d'accueil */
+.bienvenue-section {
+    background-image: url('../asset/Thales-background.png'); /* Remplacez 'background-image.jpg' par le chemin de votre image d'arrière-plan */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la section */
+    background-position: center; /* Centre l'image */
+    text-align: left; /* Alignement du texte à gauche */
+    color: #fff; /* Couleur du texte */
+    padding: 25rem; /* Espacement interne pour séparer le texte de l'image */
+}
+
+/* Style pour le titre */
+.bienvenue-section h1 {
+    font-size: 2.5rem; /* Taille de police du titre */
+    margin: 0; /* Supprime la marge par défaut */
+}
+
+
+header h2 {
     font-family: 'Roboto';
     display: flex;
     align-items: center;
@@ -55,6 +72,11 @@ header h1 {
     font-size: 2rem;
     font-family: Arial;
     margin: 0;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
 }
 
 /* Applique une forme de cercle à l'image */
@@ -65,11 +87,6 @@ header img {
     margin-right: 3rem; /* Espacement entre l'image et le texte */
 }
 
-/* Pour centrer le texte verticalement par rapport à l'image */
-header h1 {
-    display: flex;
-    align-items: center;
-}
 
 /* Ajoutez cette règle CSS pour déplacer la navbar en haut de l'écran */
 .navbar {
@@ -79,7 +96,7 @@ header h1 {
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
-    position: fixed;
+    position: sticky;
     top: 0;
     background-color: var(--bgcolor-theme);
     z-index: 1; /* Pour assurer que la navbar est au-dessus du contenu */
@@ -171,11 +188,6 @@ header h1 {
     outline: none;
 }
 
-main {
-    max-width: 75%;
-    margin: auto;
-}
-
 /* gallery */
 section ul.gallery-primary-logo img {
     width: 100%;
@@ -263,14 +275,9 @@ section ul.gallery-primary-logo li:hover {
 .mission-section {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10rem;
 }
 
-.mission-section h2{
-    font-size: 2rem;
-    margin-bottom: 5rem;
-    
-}
 
 .image-container img {
     max-width: 100%;
@@ -283,17 +290,20 @@ section ul.gallery-primary-logo li:hover {
 }
 
 .text-mission {
-    flex: 1;
-    margin-left: 60rem; /* Espacement entre l'image et le texte */
+    /* Espacement entre l'image et le texte */
+    font-family: 'Roboto';
+    align-items: center;
+    margin-left: 8rem;
 }
 
 .mission-button {
-    padding: 2.5rem 8rem;
+    padding: 2.5rem 3rem;
+    margin: 2rem;
     background-color: #1b1172;
     color: var(--bgcolor-theme);
     border: none;
     border-radius: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
     transition: background-color 0.3s; /* Effet de survol sur le bouton */
 }
