@@ -56,14 +56,14 @@ button, input {
     background-position: center; /* Centre l'image */
     text-align: left; /* Alignement du texte à gauche */
     color: #fff; /* Couleur du texte */
-    padding: 5rem; /* Espacement interne pour séparer le texte de l'image */
+    padding: 15rem; /* Espacement interne pour séparer le texte de l'image */
 }
 
 /* Section Profil (légère description de mon profil d'étudiant */
 
 .profil img {
     max-width: 6rem;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 
 /* Style pour le titre */
