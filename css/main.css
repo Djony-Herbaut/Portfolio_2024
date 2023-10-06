@@ -81,6 +81,7 @@ header h2 {
     font-size: 2rem;
     font-family: Arial;
     margin: 0;
+    height: 100vh; /* l'option vh permet de mettre la section sur toute la hauteur de la page web*/
 }
 
 main {
