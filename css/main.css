@@ -152,6 +152,7 @@ header img {
 
 .search {
     margin-left: auto;
+    position: sticky;
 }
 
 .srch {
