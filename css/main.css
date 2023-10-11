@@ -78,10 +78,8 @@ header h2 {
     display: flex;
     align-items: center;
     color: var(--text-color);
-    font-size: 1.7rem;
-    font-family: Arial;
+    font-size: 2.2rem;
     margin: 0;
-    height: 100%; /* l'option vh permet de mettre la section sur toute la hauteur de la page web*/
 }
 
 main {
@@ -99,9 +97,9 @@ header img {
 
 /* Barre de navigation et tous ce qu'elle comporte */
 .navbar {
-   
     height: 7.5rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     padding: 0 2rem;
@@ -130,14 +128,18 @@ header img {
 
 .menu ul {
     display: flex;
-    margin-left: 75rem;
-    padding: 0;
+    margin: 2rem; 
+    padding: 2rem;
+    position: sticky;
+}
+.menu ul li{
+    font-family: 'Roboto';
+    font-size: 1.75rem;
+    margin: 2rem;
+
 }
 
-.menu ul li {
-    margin-left: 2rem;
-    font-size: 1.6rem;
-}
+
 
 .menu ul li a {
     text-decoration: none;
@@ -152,13 +154,13 @@ header img {
 }
 
 .search {
-    margin-left: auto;
+    display: flex;
     position: sticky;
 }
 
 .srch {
     font-family: 'Roboto';
-    width: 20rem;
+    max-width: 20rem;
     height: 4rem;
     background: transparent;
     border: .1rem solid #0d0b53;
@@ -177,7 +179,6 @@ header img {
     border: .5rem solid #000000;
     color: var(--bgcolor-theme);
     font-size: 1.5rem;
-    margin-right: 5rem;
     border-bottom-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
     transition: 0.2s ease;
