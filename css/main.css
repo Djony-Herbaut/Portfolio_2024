@@ -102,7 +102,6 @@ header img {
    
     height: 7.5rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     padding: 0 2rem;
@@ -166,7 +165,7 @@ header img {
     margin-top: 0;
     color: #fff;
     border-right: none;
-    padding: 1rem;
+    padding: 0.5rem;
     border-bottom-left-radius: .5rem;
     border-top-left-radius: .5rem;
 }
@@ -178,6 +177,7 @@ header img {
     border: .5rem solid #000000;
     color: var(--bgcolor-theme);
     font-size: 1.5rem;
+    margin-right: 5rem;
     border-bottom-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
     transition: 0.2s ease;
