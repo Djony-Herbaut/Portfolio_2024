@@ -96,7 +96,7 @@ header img {
     margin-right: 3rem; /* Espacement entre l'image et le texte */
 }
 
-/* Barre de navigation et tous ce qu'elle comporte */
+/* Barre de navigation, Menu , barre de recherche et icône  */
 .navbar {
     height: 7.5rem;
     display: flex;
@@ -139,9 +139,6 @@ header img {
     margin: 2rem;
 
 }
-
-
-
 .menu ul li a {
     text-decoration: none;
     color: var(--text-color);
@@ -149,16 +146,16 @@ header img {
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
-
 .menu ul li a:hover {
     color: #1e0acf;
 }
+
+/* Fin CSS pour le Menu */
 
 .search {
     display: flex;
     position: sticky;
 }
-
 .srch {
     font-family: 'Roboto';
     max-width: 20rem;
@@ -172,7 +169,6 @@ header img {
     border-bottom-left-radius: .5rem;
     border-top-left-radius: .5rem;
 }
-
 .btn {
     width: 10rem;
     height: 4rem;
@@ -185,7 +181,6 @@ header img {
     transition: 0.2s ease;
     cursor: pointer;
 }
-
 .btn:hover {
     color: #c9c9c9;
 }
@@ -197,19 +192,74 @@ header img {
 .srch:focus {
     outline: none;
 }
+/* Fin Barre de navigation, Menu , barre de recherche et icône  */
+
+/* CSS pour la section Profil */
+.profil{
+    margin: 4rem;
+}
+/* Fin CSS pour la section Profil */
+
+/* CSS pour la section Présentation */
+.about{
+    background-color: #000000;
+    text-align: center;
+    color: var(--bgcolor-theme);
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 4rem;
+}
+.about h2{
+    margin: 0 0 5rem 0;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--bgcolor-theme);
+    font-weight: bolder;
+}
 
 /* Section pour les Compétences/Gallery */
+.competences{
+    background-color: #1b1172;
+    text-align: center;
+    color: var(--bgcolor-theme);
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 4rem;
+    
+}
+.competences h2{
+    margin: 2rem 0 2rem 0;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--bgcolor-theme);
+    font-weight: bolder;
 
+}
+.btn-competences{
+    display: block;
+    margin: 3rem auto;
+    padding: 2.5rem 5rem;
+    background-color: var(--bgcolor-theme);
+    color: #000000;
+    border: solid #000;
+    border-radius: 1.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.btn-competences:hover {
+    background-color: #c0c0c0;
+}
 section ul.gallery-primary-logo img {
     width: 100%;
     padding: 2rem;
 }
-
 section ul.gallery-primary-logo {
     padding: 1rem 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
+    gap: 10rem;
 }
 
 section ul.gallery-primary-logo li {
@@ -221,6 +271,7 @@ section ul.gallery-primary-logo li {
 
 section ul.gallery-primary-logo li:hover {
     clip-path: circle(60%);
+    
 }
 
 /* Section Mission */
@@ -228,10 +279,10 @@ section ul.gallery-primary-logo li:hover {
 .mission-section {
     display: flex;
     flex-direction: column;
-    padding: 5rem;
+    padding: 3rem;
+    margin: 3rem;
     background-color: #000000;
     border-radius: 4rem;
-    max-width: 160rem;
 }
 .mission-section h2{
     font-size: 3rem;
@@ -244,8 +295,6 @@ section ul.gallery-primary-logo li:hover {
     display: flex;
     margin: 3rem;
 }
-
-
 .text-mission {
     /* Espacement entre l'image et le texte */
     text-align: center;
@@ -257,7 +306,6 @@ section ul.gallery-primary-logo li:hover {
     margin: 1rem 0rem 4rem 0rem;
 
 }
-
 .img-mission img{
     transition: transform 0.3s;
     margin: 4rem;
@@ -303,7 +351,6 @@ section ul.gallery-primary-logo li:hover {
     font-family: 'Roboto';
     font-weight: bolder;
 }
-
 .project-list {
     display: flex;
     justify-content: center;
@@ -311,7 +358,6 @@ section ul.gallery-primary-logo li:hover {
     margin: 7rem;
 
 }
-
 .project-item {
     position: relative;
     overflow: hidden;
@@ -332,8 +378,6 @@ section ul.gallery-primary-logo li:hover {
     max-width: 100%;
     height: auto;
 }
-
-
 .view-all-button {
     display: block;
     margin: 3rem auto;
@@ -347,11 +391,9 @@ section ul.gallery-primary-logo li:hover {
     font-family: 'Roboto';
     font-weight: 700;
 }
-
 .view-all-button:hover {
     background-color: #c0c0c0;
 }
-
 /* Fin de section projet */
 
 
