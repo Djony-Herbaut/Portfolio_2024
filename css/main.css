@@ -78,10 +78,10 @@ header h2 {
     display: flex;
     align-items: center;
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: Arial;
     margin: 0;
-    height: 100vh; /* l'option vh permet de mettre la section sur toute la hauteur de la page web*/
+    height: 100%; /* l'option vh permet de mettre la section sur toute la hauteur de la page web*/
 }
 
 main {
