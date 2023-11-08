@@ -236,8 +236,8 @@ header img {
 
 }
 .btn-competences{
-    display: block;
-    margin: 3rem auto;
+    display: flex;
+    margin: 3rem auto; 
     padding: 2.5rem 5rem;
     background-color: var(--bgcolor-theme);
     color: #000000;
@@ -247,30 +247,32 @@ header img {
     cursor: pointer;
     font-family: 'Roboto';
     font-weight: 700;
+    width: 28rem;
 }
 .btn-competences:hover {
     background-color: #c0c0c0;
 }
-section ul.gallery-primary-logo img {
+.gallery-primary-logo li i {
+    font-size: 15rem;
     width: 100%;
     padding: 2rem;
+    color: #ffffff;
+    border: solid 1px black;
 }
-section ul.gallery-primary-logo {
+.gallery-primary-logo {
     padding: 1rem 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10rem;
 }
-
-section ul.gallery-primary-logo li {
-    clip-path: circle(40%);
+.gallery-primary-logo li {
+    clip-path: circle(30%);
     transition: all .3s ease-in-out;
     cursor: pointer;
     filter: drop-shadow(0 0 0.60rem rgb(11, 0, 71));
 }
-
 section ul.gallery-primary-logo li:hover {
-    clip-path: circle(60%);
+    clip-path: circle(50%);
     
 }
 
