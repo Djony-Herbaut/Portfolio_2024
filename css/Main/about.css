@@ -1,0 +1,36 @@
+/* CSS pour la section Présentation */
+.about{
+    background-color: #1f1f1f;
+    text-align: center;
+    color: var(--bgcolor-theme);
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 4rem;
+}
+.about p{
+    text-align : justify;
+}
+.about h2{
+    margin: 0 0 5rem 0;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--bgcolor-theme);
+    font-weight: bolder;
+}
+.show-more {
+    display: block;
+    margin: 5rem auto;
+    padding: 2.5rem;
+    background-color: var(--bgcolor-theme);
+    color: #000000;
+    border: .5rem solid #000;
+    border-radius: 1.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 700;
+    width: 28rem;
+}
+.show-more:hover {
+    background-color: #9e9b9b;
+}

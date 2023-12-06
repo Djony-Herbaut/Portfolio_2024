@@ -1,0 +1,107 @@
+/* Section d'accueil */
+.bienvenue-section {
+    background-image: url('/asset/Thales-background.png'); /* Remplacez 'background-image.jpg' par le chemin de votre image d'arrière-plan */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la section */
+    background-position: center; /* Centre l'image */
+    text-align: left; /* Alignement du texte à gauche */
+    color: #fff; /* Couleur du texte */
+    padding: 15rem; /* Espacement interne pour séparer le texte de l'image */
+    font-weight: bold;
+}
+
+/* Section Profil (légère description de mon profil d'étudiant */
+
+.profil img {
+    max-width: 6rem;
+    border-radius: 20%;
+}
+
+/* Style pour le titre */
+.bienvenue-section h1 {
+    font-size: 2.5rem; /* Taille de police du titre */
+    margin: 0; /* Supprime la marge par défaut */
+}
+
+header h2 {
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+main {
+    max-width: 160rem;
+    margin: auto;
+}
+
+
+header img {
+    width: 5rem; /* Ajustez la taille de l'image selon vos préférences */
+    height: 5rem; /* Ajustez la taille de l'image selon vos préférences */
+    border-radius: 70%; /* Transforme l'image en cercle */
+    margin-right: 3rem; /* Espacement entre l'image et le texte */
+}
+
+/* Barre de navigation, Menu , barre de recherche et icône  */
+.navbar {
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--bgcolor-theme);
+    z-index: 1; /* Pour assurer que la navbar est au-dessus du contenu */
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    color: var(--bgcolor-theme);
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family: Arial;
+    padding-left: 1rem;
+}
+    /* CSS pour le Menu */
+.menu {
+    display: flex;
+    margin: 0;
+}
+
+.menu ul {
+    display: flex;
+    margin: 2rem; 
+    padding: 2rem;
+    position: sticky;
+}
+.menu ul li{
+    font-family: 'Roboto';
+    font-size: 1.75rem;
+    margin: 2rem;
+
+}
+.menu ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.menu ul li a:hover {
+    color: #1b1172d8;
+}
+
+/* Fin Barre de navigation, Menu */
+
+/* CSS pour la section Profil */
+.profil{
+    margin: 4rem;
+}
+/* Fin CSS pour la section Profil */
