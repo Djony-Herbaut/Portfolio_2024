@@ -318,6 +318,7 @@ section ul.gallery-primary-logo li:hover {
 }
 
 .mission-button {
+    display: block;
     padding: 2.5rem 3rem;
     margin: 4rem;
     background-color: #1b1172;
@@ -326,7 +327,7 @@ section ul.gallery-primary-logo li:hover {
     border-radius: 1.5rem;
     font-size: 2rem;
     cursor: pointer;
-    transition: background-color 0.3s; /* Effet de survol sur le bouton */
+    transition: 0.3s; /* Effet de survol sur le bouton */
 }
 
 .mission-button:hover {
@@ -381,8 +382,8 @@ section ul.gallery-primary-logo li:hover {
     height: auto;
 }
 .view-all-button {
-    display: block;
-    margin: 3rem auto;
+    display: flex;
+    margin: 3rem auto; 
     padding: 2.5rem 5rem;
     background-color: var(--bgcolor-theme);
     color: #000000;
@@ -392,6 +393,7 @@ section ul.gallery-primary-logo li:hover {
     cursor: pointer;
     font-family: 'Roboto';
     font-weight: 700;
+    width: 28rem;
 }
 .view-all-button:hover {
     background-color: #c0c0c0;
