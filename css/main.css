@@ -151,47 +151,6 @@ header img {
 }
 
 /* Fin CSS pour le Menu */
-
-.search {
-    display: flex;
-    position: sticky;
-}
-.srch {
-    font-family: 'Roboto';
-    max-width: 20rem;
-    height: 4rem;
-    background: transparent;
-    border: .1rem solid #0d0b53;
-    margin-top: 0;
-    color: #000000;
-    border-right: none;
-    padding: 0.5rem;
-    border-bottom-left-radius: .5rem;
-    border-top-left-radius: .5rem;
-}
-.btn {
-    width: 10rem;
-    height: 4rem;
-    background: #040279;
-    border: .5rem solid #000000;
-    color: var(--bgcolor-theme);
-    font-size: 1.5rem;
-    border-bottom-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-.btn:hover {
-    color: #c9c9c9;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.srch:focus {
-    outline: none;
-}
 /* Fin Barre de navigation, Menu , barre de recherche et icône  */
 
 /* CSS pour la section Profil */
