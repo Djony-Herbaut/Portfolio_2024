@@ -17,7 +17,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="./css/Main/main.css">
+    <link rel="stylesheet" href="./css/Main/accueil.css">
+    <link rel="stylesheet" href="./css/Main/about.css">
+    <link rel="stylesheet" href="./css/Main/projets.css">
+    <link rel="stylesheet" href="./css/Main/skills.css">
+    
     <script src="https://kit.fontawesome.com/2454e153f7.js" crossorigin="anonymous"></script>
     
     <title>Portfolio Djony</title>
@@ -36,9 +42,9 @@
             <div class="menu">
                 <ul itemprop="genre">
                     <li><a href="index.html" itemprop="url">Accueil</a></li>
-                    <li><a href="About-Me.html" itemprop="url">À Propos de Moi</a></li>
+                    <li><a href="#About" itemprop="url">À Propos de Moi</a></li>
                     <li><a href="#mes-projets" itemprop="url">Mes Projets</a></li>
-                    <li><a href=# itemprop="url">Compétences</a></li>
+                    <li><a href="#skills" itemprop="url">Compétences</a></li>
                     <li><a href="contact.html" itemprop="url">Contact</a></li>
                 </ul>                
             </div>
@@ -55,12 +61,12 @@
                 <img src="./asset/photo_de_profil.png" alt="photo_de_profil-section_profil" loading="lazy" itemprop="image">
                 Djony HERBAUT
             </h2>
-            <p>
+            <p itemprop="description">
                 Actuellement étudiant de BTS SLAM en Alternance.
             </p>
         </section>
 
-        <section class="about">
+        <section class="about" id="About">
             <h2>Présentation</h2>
             <p itemprop="description">
                 Bonjour , je m'appelle Djony HERBAUT, j'ai 19 ans et je suis actuellement en alternance en tant qu'étudiant en Brevet de
@@ -70,12 +76,12 @@
                 ainsi que de mes projets passés et actuels. J'ai hâte de partager avec vous mon voyage dans le monde de l'informatique 
                 et de mettre en lumière les projets qui ont façonné mon expérience jusqu'à présent.
             </p>
-            <a href="#" class="show-more" itemprop="url">
+            <a href="About-Me.html" class="show-more" itemprop="url">
                 <h3>En savoir Plus +</h3>
             </a>
         </section>
 
-        <section class="competences">
+        <section class="competences" id="skills">
             <h2>
                 Compétences
             </h2>
@@ -86,7 +92,7 @@
                 <li><i class="fa-brands fa-css3-alt"></i></li>
                 <li><i class="fa-brands fa-html5"></i></li>
             </ul>
-            <a href="#" class="btn-competences" itemprop="url">
+            <a href="Skills.html" class="btn-competences" itemprop="url">
                     Mon Apprentissage 
             </a>
         </section>
@@ -100,7 +106,7 @@
                 <div class="text-mission" aria-roledescription="affiche les missions">
                     <p>Durant la préparation de mon BTS, j'ai eu le privilège de réalisé une alternace au sein de Thalès DIS France .... </p>
                     <a href="#" class="mission-button" itemprop="url">
-                        <h3>Découvrir Toute mes missions d'alternants</h3>
+                        <h3>Découvrir Toute mes Missions d'Alternants</h3>
                     </a>
                 </div>
             </div>
@@ -131,7 +137,7 @@
                     </a>
                 </div>
             </div>
-            <a href="#" class="view-all-button" aria-label="View-all" itemprop="url">
+            <a href="Projects.html" class="view-all-button" aria-label="View-all" itemprop="url">
                 <h3>Voir tous les autres projets</h3>
             </a>
         </section>
