@@ -383,7 +383,7 @@ section ul.gallery-primary-logo li:hover {
 }
 .view-all-button {
     display: flex;
-    margin: 3rem auto; 
+    margin: 2rem auto; 
     padding: 2.5rem 5rem;
     background-color: var(--bgcolor-theme);
     color: #000000;
@@ -393,7 +393,7 @@ section ul.gallery-primary-logo li:hover {
     cursor: pointer;
     font-family: 'Roboto';
     font-weight: 700;
-    width: 28rem;
+    width: 40rem; 
 }
 .view-all-button:hover {
     background-color: #c0c0c0;
