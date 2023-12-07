@@ -1,6 +1,6 @@
 /* Section d'accueil */
 .bienvenue-section {
-    background-image: url('/home/djony/Cours_HTLML-CSS-JAVASCRIPT-INTERFACES_WEB/projet_portfolio/asset/Thales-background.png'); /* Remplacez 'background-image.jpg' par le chemin de votre image d'arrière-plan */
+    background-image: url('./asset/Thales-background.png'); /* Remplacez 'background-image.jpg' par le chemin de votre image d'arrière-plan */
     background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la section */
     background-position: center; /* Centre l'image */
     text-align: left; /* Alignement du texte à gauche */
