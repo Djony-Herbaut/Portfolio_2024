@@ -1,29 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+/* Nouveau fichier CSS pour la page de contact */
 
-/* Reset */
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+/* Barre de navigation, Menu , barre de recherche et icône  */
+.navbar {
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--bgcolor-theme);
+    z-index: 1; /* Pour assurer que la navbar est au-dessus du contenu */
 }
 
-body {
-  font: 1.6rem 'Roboto', sans-serif;
-  margin: 0;
-  line-height: 1.6;
-  letter-spacing: .1rem;
-  background-color: var(--bgcolor-theme);
-  color: var(--text-color);
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  height: 100vh;
-  transition: all .6s ease-in-out;
+.icon {
+    display: flex;
+    align-items: center;
+    color: var(--bgcolor-theme);
 }
 
-* {
-  box-sizing: border-box;
+.logo {
+    font-size: 2.5rem;
+    font-family: Arial;
+    padding-left: 1rem;
+}
+    /* CSS pour le Menu */
+.menu {
+    display: flex;
+    margin: 0;
 }
 
-h1, h2, h3, p, ul, ol {
-  padding: 0;
-  margin: 0;
+.menu ul {
+    display: flex;
+    margin: 2rem; 
+    padding: 2rem;
+    position: sticky;
+}
+.menu ul li{
+    font-family: 'Roboto';
+    font-size: 1.75rem;
+    margin: 2rem;
+
+}
+.menu ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.menu ul li a:hover {
+    color: #1b1172d8;
+}
+
+/* Fin Barre de navigation, Menu */
+
+/* Section Contact */
+.contact-section {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 4rem;
+    padding: 4rem;
+    background-color: #1b1172d8;
+    border-radius: 4rem;
+    color: #ffffff;
+}
+
+.contact-section h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+    font-weight: bolder;
+}
+
+.contact-section p {
+    margin-bottom: 3rem;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    border: 1px solid #5244d3;
+    border-radius: 0.5rem;
+}
+
+button {
+    background-color: #5244d3;
+    color: #ffffff;
+    border: none;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7e6fff;
 }
