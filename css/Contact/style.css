@@ -36,10 +36,11 @@
     margin: 2rem; 
     padding: 2rem;
     position: sticky;
+    list-style: none;
 }
 .menu ul li{
     font-family: 'Roboto';
-    font-size: 1.75rem;
+    font-size: 1.2rem;
     margin: 2rem;
 
 }
@@ -60,40 +61,43 @@
 .contact-section {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin: 4rem;
-    padding: 4rem;
+    margin: auto;
+    padding: auto;
     background-color: #1b1172d8;
     border-radius: 4rem;
     color: #ffffff;
+    width: 25%;
 }
 
 .contact-section h2 {
-    font-size: 3rem;
-    margin: 2rem 0;
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 1.5rem 3rem;
     font-weight: bolder;
 }
 
 .contact-section p {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 #contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
 }
 
 label {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
 input,
 textarea {
-    width: 100%;
+    width: 55%;
     padding: 1rem;
-    margin-bottom: 2rem;
-    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
     border: 1px solid #5244d3;
     border-radius: 0.5rem;
 }
@@ -101,9 +105,9 @@ textarea {
 button {
     background-color: #5244d3;
     color: #ffffff;
-    border: none;
+    margin: 0.3rem;
     padding: 1.5rem 3rem;
-    font-size: 1.8rem;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 1.5rem;
     transition: background-color 0.3s;
