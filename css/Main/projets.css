@@ -24,9 +24,11 @@
 
 }
 .project-item {
-    position: relative;
+    display: flex;
+    justify-content:center ;
     overflow: hidden;
     transition: transform 0.3s;
+    max-width: 25rem;
 }
 
 .project-link {
@@ -40,8 +42,10 @@
 }
 
 .project-item img {
+    display: flex;
     max-width: 100%;
     height: auto;
+    
 }
 .view-all-button {
     display: flex;
