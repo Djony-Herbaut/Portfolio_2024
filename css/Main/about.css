@@ -17,6 +17,9 @@
     color: var(--bgcolor-theme);
     font-weight: bolder;
 }
+.about img{
+    width: 85%;
+}
 .show-more {
     display: block;
     margin: 5rem auto;
