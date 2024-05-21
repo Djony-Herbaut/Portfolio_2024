@@ -37,3 +37,9 @@
 .show-more:hover {
     background-color: #9e9b9b;
 }
+.list-project{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-left: 10%;
+}
