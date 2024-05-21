@@ -1,156 +1,157 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Portfolio Djony">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Portfolio Djony">
 
-    <meta property="og:title" content="Portfolio de Djony">
-    <meta property="og:type" content="website">
-    <meta property="og:domain" content="djony-herbaut.github.io">
-    <meta property="og:url" content="https://djony-herbaut.github.io/Portfolio_2024/">
-    <meta property="og:description" content="Page dédié au potfolio de Djony">
-    <meta property="og:image" content="https://github.com/Djony-Herbaut/Portfolio_2024/blob/master/favicon/apple-touch-icon.png?raw=true">
+        <meta property="og:title" content="Portfolio de Djony">
+        <meta property="og:type" content="website">
+        <meta property="og:domain" content="djony-herbaut.github.io">
+        <meta property="og:url" content="https://djony-herbaut.github.io/Portfolio_2024/">
+        <meta property="og:description" content="Page dédié au portfolio de Djony">
+        <meta property="og:image" content="https://github.com/Djony-Herbaut/Portfolio_2024/blob/master/favicon/apple-touch-icon.png?raw=true">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
 
-    <link rel="stylesheet" href="./css/Main/main.css">
-    <link rel="stylesheet" href="./css/Main/accueil.css">
-    <link rel="stylesheet" href="./css/Main/about.css">
-    <link rel="stylesheet" href="./css/Main/projets.css">
-    <link rel="stylesheet" href="./css/Main/skills.css">
-    <link rel="stylesheet" href="./css/Main/mission.css">
-    
-    <script src="https://kit.fontawesome.com/2454e153f7.js" crossorigin="anonymous"></script>
-    
-    <title>Portfolio Djony</title>
+        <link rel="stylesheet" href="./css/Main/main.css">
+        <link rel="stylesheet" href="./css/Main/accueil.css">
+        <link rel="stylesheet" href="./css/Main/about.css">
+        <link rel="stylesheet" href="./css/Main/projets.css">
+        <link rel="stylesheet" href="./css/Main/skills.css">
+        <link rel="stylesheet" href="./css/Main/mission.css">
+        
+        <script src="https://kit.fontawesome.com/2454e153f7.js" crossorigin="anonymous"></script>
+        
+        <title>Portfolio Djony</title>
 
-</head>
-<body itemscope itemtype="https://schema.org/website">
-    <header>
-        <nav class="navbar">
-            <section class="icon">
+    </head>
+    <body itemscope itemtype="https://schema.org/website">
+        <header>
+            <nav class="navbar">
+                <section class="icon">
+                    <h2>
+                        <img src="./favicon/favicon-32x32.png" alt="icon-navbar" loading="lazy" itemprop="image">
+                        Djony HERBAUT
+                    </h2>
+                </section>
+
+                <div class="menu">
+                    <ul itemprop="genre">
+                        <li><a href="index.html" itemprop="url">Accueil</a></li>
+                        <li><a href="#About" itemprop="url">À Propos de Moi</a></li>
+                        <li><a href="#mes-projets" itemprop="url">Mes Projets</a></li>
+                        <li><a href="#skills" itemprop="url">Compétences</a></li>
+                        <li><a href="./navigation/contact.html" itemprop="url">Contact</a></li>
+                    </ul>                
+                </div>
+            </nav> 
+        </header>
+
+        <section class="bienvenue-section">
+            <h1>Djony Herbaut</h1>
+        </section>
+
+        <main>
+            <section class="profil">
                 <h2>
-                    <img src="./favicon/favicon-32x32.png" alt="icon-navbar" loading="lazy" itemprop="image">
+                    <img src="./asset/photo_de_profil.png" alt="photo_de_profil-section_profil" loading="lazy" itemprop="image">
                     Djony HERBAUT
                 </h2>
+                <p itemprop="description">
+                    Actuellement étudiant de BTS SLAM en Alternance.
+                </p>
             </section>
 
-            <div class="menu">
-                <ul itemprop="genre">
-                    <li><a href="index.html" itemprop="url">Accueil</a></li>
-                    <li><a href="#About" itemprop="url">À Propos de Moi</a></li>
-                    <li><a href="#mes-projets" itemprop="url">Mes Projets</a></li>
-                    <li><a href="#skills" itemprop="url">Compétences</a></li>
-                    <li><a href="./navigation/contact.html" itemprop="url">Contact</a></li>
-                </ul>                
-            </div>
-        </nav> 
-    </header>
+            <section class="about" id="About">
+                <h2>Présentation</h2>
+                <p itemprop="description">
+                    Bonjour , je m'appelle Djony HERBAUT, j'ai 19 ans et je suis actuellement en alternance en tant qu'étudiant en Brevet de
+                    Technicien Supérieur des Services Informatiques aux Organisations (BTS SIO). Ma passion pour l'informatique et 
+                    le développement m'a poussé à choisir la filière Solutions Logicielles et Applications Métiers au sein de mon BTS SIO.
+                    Dans ce portfolio, je vais vous présenter un aperçu de mon parcours académique, de mes compétences en développement,
+                    ainsi que de mes projets passés et actuels. J'ai hâte de partager avec vous mon voyage dans le monde de l'informatique 
+                    et de mettre en lumière les projets qui ont façonné mon expérience jusqu'à présent.
+                </p>
+                <a href="./navigation/About-Me.html" class="show-more" itemprop="url">
+                    En savoir +
+                </a>
+            </section>
 
-    <section class="bienvenue-section">
-        <h1>Djony Herbaut</h1>
-    </section>
+            <section class="competences" id="skills">
+                <h2>
+                    Compétences
+                </h2>
+                <ul class="gallery-primary-logo" >
+                    <li><i class="fa-brands fa-js"></i></li>
+                    <li><i class="fa-brands fa-python"></i></li>
+                    <li><i class="fa-brands fa-java"></i></li>
+                    <li><i class="fa-brands fa-css3-alt"></i></li>
+                    <li><i class="fa-brands fa-html5"></i></li>
+                </ul>
+                <a href="./navigation/skills.html" class="btn-competences" itemprop="url">
+                        Les Notions abordées en cours 
+                </a>
+            </section>
 
-    <main>
-        <section class="profil">
-            <h2>
-                <img src="./asset/photo_de_profil.png" alt="photo_de_profil-section_profil" loading="lazy" itemprop="image">
-                Djony HERBAUT
-            </h2>
-            <p itemprop="description">
-                Actuellement étudiant de BTS SLAM en Alternance.
+            <section class="mission-section">
+                <h2>Mes Missions en alternance</h2>
+                <div class="text_img-mission" aria-roledescription="affiche le texte et l'image d'introduction de cette section">
+                    <div class="img-mission" aria-roledescription="affiche l'image de l'entreprise dans laquelle j'ai réalisé mes missions">
+                        <img src="./asset/Thales-logo.png" alt="Thalès logo" loading="lazy" itemprop="image">
+                    </div>
+                    <div class="text-mission" aria-roledescription="affiche les missions">
+                        <p>Durant la préparation de mon BTS, j'ai eu le privilège de réalisé une alternace au sein de Thalès DIS France .... </p>
+                        <a href="./navigation/apprentissage.html" class="mission-button" itemprop="url">
+                            <h3>Découvrir toutes mes Missions d'Alternant</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section" id="mes-projets">
+                <h2>Mes Projets</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <a href="./navigation/tous-projets/Projet-Java.html" class="project-link" itemprop="url">
+                            <img src="./asset/vdn_logo.png" alt="Projet Java" itemprop="image">
+                            <h3>Projet de Gestion du personnel en Java</h3>
+                            <p>Visitez VDN Gestion</p>
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <a href="./navigation/tous-projets/Projet-web.html" class="project-link" itemprop="url">
+                            <img src="./asset/Projet-web.png" alt="Projet M2Lweb" itemprop="image">
+                            <h3>Projet Web</h3>
+                            <p>Plateforme sportive amateur pendant les JO </p>
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <a href="./navigation/tous-projets/Projet-Gmail.html" class="project-link" itemprop="url">
+                            <img src="./asset/imgGmail.png" alt="Projet Gmail" itemprop="image">
+                            <h3>Projet Fake Gmail</h3>
+                            <p>Visitez ma copie de Gmail</p>
+                        </a>
+                    </div>
+                </div>
+                <a href="./navigation/Projects.html" class="view-all-button" aria-label="View-all" itemprop="url">
+                    <h3>Voir tous les autres projets</h3>
+                </a>
+            </section>
+        </main>
+        
+        <footer>
+            <p>
+                <img alt="Licence AUR" src="https://img.shields.io/aur/license/c" itemprop="image">
+                <time datetime="2023-10-02"> - 2023</time>
             </p>
-        </section>
+        </footer>
 
-        <section class="about" id="About">
-            <h2>Présentation</h2>
-            <p itemprop="description">
-                Bonjour , je m'appelle Djony HERBAUT, j'ai 19 ans et je suis actuellement en alternance en tant qu'étudiant en Brevet de
-                Technicien Supérieur des Services Informatiques aux Organisations (BTS SIO). Ma passion pour l'informatique et 
-                le développement m'a poussé à choisir la filière Solutions Logicielles et Applications Métiers au sein de mon BTS SIO.
-                Dans ce portfolio, je vais vous présenter un aperçu de mon parcours académique, de mes compétences en développement,
-                ainsi que de mes projets passés et actuels. J'ai hâte de partager avec vous mon voyage dans le monde de l'informatique 
-                et de mettre en lumière les projets qui ont façonné mon expérience jusqu'à présent.
-            </p>
-            <a href="./navigation/About-Me.html" class="show-more" itemprop="url">
-                En savoir +
-            </a>
-        </section>
-
-        <section class="competences" id="skills">
-            <h2>
-                Compétences
-            </h2>
-            <ul class="gallery-primary-logo" >
-                <li><i class="fa-brands fa-js"></i></li>
-                <li><i class="fa-brands fa-python"></i></li>
-                <li><i class="fa-brands fa-java"></i></li>
-                <li><i class="fa-brands fa-css3-alt"></i></li>
-                <li><i class="fa-brands fa-html5"></i></li>
-            </ul>
-            <a href="./navigation/skills.html" class="btn-competences" itemprop="url">
-                    Les Notions abordées en cours 
-            </a>
-        </section>
-
-        <section class="mission-section">
-            <h2>Mes Missions en alternance</h2>
-            <div class="text_img-mission" aria-roledescription="affiche le texte et l'image d'introduction de cette section">
-                <div class="img-mission" aria-roledescription="affiche l'image de l'entreprise dans laquelle j'ai réalisé mes missions">
-                    <img src="./asset/Thales-logo.png" alt="Thalès logo" loading="lazy" itemprop="image">
-                </div>
-                <div class="text-mission" aria-roledescription="affiche les missions">
-                    <p>Durant la préparation de mon BTS, j'ai eu le privilège de réalisé une alternace au sein de Thalès DIS France .... </p>
-                    <a href="./navigation/apprentissage.html" class="mission-button" itemprop="url">
-                        <h3>Découvrir toutes mes Missions d'Alternant</h3>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="project-section" id="mes-projets">
-            <h2>Mes Projets</h2>
-            <div class="project-list">
-                <div class="project-item">
-                    <a href="./navigation/tous-projets/Projet-Java.html" class="project-link" itemprop="url">
-                        <img src="./asset/vdn_logo.png" alt="Projet Java" itemprop="image">
-                        <h3>Projet de Gestion du personnel en Java</h3>
-                        <p>Visitez VDN Gestion</p>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a href="./navigation/tous-projets/Projet-web.html" class="project-link" itemprop="url">
-                        <img src="./asset/Projet-web.png" alt="Projet M2Lweb" itemprop="image">
-                        <h3>Projet Web</h3>
-                        <p>Plateforme sportive amateur pendant les JO </p>
-                    </a>
-                </div>
-                <div class="project-item">
-                    <a href="./navigation/tous-projets/Projet-Gmail.html" class="project-link" itemprop="url">
-                        <img src="./asset/imgGmail.png" alt="Projet Gmail" itemprop="image">
-                        <h3>Projet Fake Gmail</h3>
-                        <p>Visitez ma copie de Gmail</p>
-                    </a>
-                </div>
-            </div>
-            <a href="./navigation/Projects.html" class="view-all-button" aria-label="View-all" itemprop="url">
-                <h3>Voir tous les autres projets</h3>
-            </a>
-        </section>
-    </main>
-    
-    <footer>
-        <p>
-            <img alt="Licence AUR" src="https://img.shields.io/aur/license/c" itemprop="image">
-            <time datetime="2023-10-02"> - 2023</time>
-        </p>
-    </footer>
-
-    <script src="./js/app.js"></script>
-</body>
+        <script src="./js/app.js"></script>
+    </body>
 </html>
+
